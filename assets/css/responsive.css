@@ -1,0 +1,1510 @@
+/*media query para moviles*/
+@media screen and (min-width:390px) {
+
+    .c4>.bubble1 {
+
+        width: 85%;
+        padding: 3%;
+        margin-left: 15%;
+        margin-top: 4%;
+
+    }
+
+
+
+}
+/*media query para moviles*/
+@media screen and (min-width:412px) and (max-width:767px) {
+
+    .c4>.bubble1 {
+
+        width: 85%;
+        padding: 3%;
+        margin-left: 15%;
+
+    }
+
+    .c11>.bubble2 {
+        width: 85%;
+        padding: 3%;
+        margin-right: 5%;
+
+    }
+
+    .c14>.in {
+        margin-top: 40%;
+
+    }
+
+    .c16>.twitter {
+
+        margin-top: 42%;
+
+    }
+
+    .c17>.insta {
+        margin-top: -2%
+    }
+
+    .email-div>button {
+        margin-top: 18.5%;
+        margin-left: 59%;
+
+    }
+
+
+
+}
+/*media query para tablets*/
+@media screen and (min-width:768px) and (max-width:819px) {
+    :root {
+
+        --bg-color-: #FFFFFF;
+        --bg-box-color: #F9F5F2;
+        --color-green: #197F5B;
+        --color-orange: #EF9919;
+        --color-gray: #413f40;
+    }
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 40px;
+        color: var(--bg-color-);
+    }
+    .cabecera {
+        background: url(https://sergiofrancodev.com/svg/fondoweb.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+
+    }
+    label {
+        display: none;
+    }
+    input#menu-responsive~ul {
+        position: static;
+        background-color: transparent;
+        height: auto;
+        display: flex;
+        justify-content: flex-end;
+        transition: none;
+        gap: 1.5rem;
+        color: var(--bg-color-);
+
+
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        height: 50px;
+        background-color: var(--color-green);
+        padding: 3%;
+    }
+    nav>ul>li {
+        display: inline-block;
+
+    }
+    nav>ul>li>a {
+
+        text-decoration: none;
+        color: var(--bg-color-);
+        font-weight: 400;
+
+    }
+    .container {
+        margin-top: 4%;
+        grid-template-columns: 45% 10% 45%;
+
+
+
+    }
+    .c1 span {
+        color: var(--color-orange);
+        font-weight: 600;
+
+    }
+    .c1 h1 {
+        font-weight: 400;
+    }
+    .c2 span {
+        color: var(--bg-color-);
+        font-weight: 400;
+        font-size: 20px;
+    }
+    .c4 {
+
+        grid-column: 1;
+
+    }
+    .c4>.bubble1 {
+
+        width: 32%;
+        -webkit-box-reflect: below -48px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(255, 255, 255, 0.5)));
+        margin-left: 51%;
+        padding: 2%;
+        margin-top: 2%;
+
+
+    }
+    .c11>.bubble2 {
+        width: 32%;
+        padding: 2%;
+        margin-right: 50%;
+        margin-top: 1%;
+        -webkit-box-reflect: below -48px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(255, 255, 255, 0.5)));
+
+
+    }
+    .c11>.bubble2>span {
+        color: var(--color-orange);
+        font-weight: 600;
+    }
+    .c14>.in {
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-right: 16%;
+        margin-top: 9%;
+    }
+    .c16>.twitter {
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-top: 9%;
+        margin-left: 18%;
+
+    }
+    .c17 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .c17>.insta {
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-top: -1%;
+
+    }
+    .email-div>span {
+        font-size: 34px;
+        margin-bottom: 4%;
+    }
+    input.email-box {
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        height: 4rem;
+    }
+    .email-div>button {
+        margin-top: 18.2%;
+        width: 20%;
+        height: 3.4rem;
+        margin-left: 70%;
+        font-size: 20px;
+    }
+    .about-box {
+        margin-bottom: 8%;
+        font-size: 24px;
+    }
+    main>.title-aboutme {
+        font-size: 32px;
+    }
+    button.cv {
+    
+        width: 30%;
+        height: 3.5rem;
+        font-size: 18px;
+    }
+    .title-studies {
+        margin-top: 8%;
+        font-size: 32px;
+    }
+    .titulo-studies {
+    
+        font-size: 24px;
+    }
+    .anio-studies {
+        font-size: 14px;
+    }
+    .learning-studies {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+    .title-skills{
+        font-size: 32px;
+    }
+    .titles-skills{
+    
+        font-size: 24px;
+    
+    }
+    .bar-web-design,
+    .bar-web-design::after{
+    
+        height: 1.5rem;
+       
+    }
+    .porcentage-wd{
+    font-size: 16px;
+    }
+    
+    /**/
+    
+    .bar-interaction-design,
+    .bar-interaction-design::after{
+            height: 1.5rem;
+    }
+    .porcentage-id{
+        font-size: 16px;
+    }
+    /**/
+    
+    .bar-ux,
+    .bar-ux::after{
+        height: 1.5rem;
+    }
+    
+    .porcentage-ux{
+        font-size: 16px;
+    }
+    
+    /**/
+    
+    .bar-Frameworks,
+    .bar-Frameworks::after{
+        height: 1.5rem;
+       
+    }
+    
+    .porcentage-frame{
+        font-size: 16px;
+    }
+    .experience{
+        margin-top: 3rem;
+    }
+
+      .experience > h2{
+          font-size: 36px;
+          margin-bottom: 2rem;
+      }
+        
+        #content {
+          grid-gap: 5.5rem;
+      
+        }
+ 
+      
+      .mi-portafolio > h2 {
+              font-size: 36px;
+      }
+      .mp1{
+          font-size: 22px;
+      }
+      .mp2{
+        font-size: 22px;
+      }
+
+      .contacto > h2 {
+                  font-size: 36px;
+          }
+                  .circle{
+                  
+                      width: 150px;
+                      height: 150px;
+                         
+                   }
+
+                   .circle > img{
+                       width: 50%;
+                   }
+      
+                  .title-contact{
+                      font-size: 18px;
+                  }
+                  .sub-contact{
+                      font-size: 16px;
+                  }
+
+      
+               .footer1{
+      
+                  font-size: 50px;
+      
+               }
+               .footer2{
+                   font-size: 24px;
+               }
+
+}
+/*media query para tablets*/
+@media screen and (min-width:820px) and (max-width:999px) {
+
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 40px;
+        color: var(--bg-color-);
+    }
+
+    .cabecera {
+        background: url(/assets/Vectores/fondoweb.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+    }
+
+    label {
+        display: none;
+    }
+
+    input#menu-responsive~ul {
+        position: static;
+        background-color: transparent;
+        height: auto;
+        display: flex;
+        justify-content: flex-end;
+        transition: none;
+        gap: 1.5rem;
+        color: var(--bg-color-);
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        height: 50px;
+        background-color: var(--color-green);
+        padding: 3%;
+    }
+
+    nav>ul>li {
+        display: inline-block;
+    }
+
+    nav>ul>li>a {
+        text-decoration: none;
+        color: var(--bg-color-);
+        font-weight: 400;
+    }
+
+    .container {
+        margin-top: 4%;
+        grid-template-columns: 45% 10% 45%;
+    }
+
+    .c1 span {
+        color: var(--color-orange);
+        font-weight: 600;
+    }
+
+    .c1 h1 {
+        font-weight: 400;
+    }
+
+    .c2 span {
+        color: var(--bg-color-);
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    .c4>.bubble1 {
+        width: 32%;
+        -webkit-box-reflect: below -48px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(255, 255, 255, 0.5)));
+        margin-left: 51%;
+        padding: 2%;
+        margin-top: 8%;
+    }
+
+    .c11>.bubble2 {
+        width: 32%;
+        padding: 2%;
+        margin-right: 50%;
+        -webkit-box-reflect: below -48px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(255, 255, 255, 0.5)));
+
+
+    }
+
+    .c14>.in {
+        margin-right: 18%;
+        margin-top: 15%;
+    }
+
+    .c16>.twitter {
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-top: 15%;
+        margin-left: 20%;
+    }
+
+    .c17>.insta {
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-top: 1%;
+
+    }
+
+    .email-div>span {
+        font-size: 34px;
+        margin-bottom: 4%;
+    }
+
+    input.email-box {
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        height: 4rem;
+    }
+
+    .email-div>button {
+        margin-top: 18.2%;
+        width: 20%;
+        height: 3.4rem;
+        margin-left: 70%;
+        font-size: 20px;
+    }
+    .about-box {
+        margin-bottom: 8%;
+        font-size: 24px;
+    }
+    
+    main>.title-aboutme {
+        font-size: 32px;
+    }
+    
+    button.cv {
+    
+        width: 30%;
+        height: 3.5rem;
+        font-size: 18px;
+    }
+    
+    .title-studies {
+        margin-top: 8%;
+        font-size: 32px;
+    }
+    
+    
+    .titulo-studies {
+    
+        font-size: 24px;
+    }
+    .anio-studies {
+        font-size: 14px;
+    }
+    
+    .learning-studies {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+    
+    .title-skills{
+        font-size: 32px;
+    }
+    
+    
+    .titles-skills{
+    
+        font-size: 24px;
+    
+    }
+    .bar-web-design,
+    .bar-web-design::after{
+    
+        height: 1.5rem;
+       
+    }
+    .porcentage-wd{
+    font-size: 16px;
+    }
+    
+    /**/
+    
+    .bar-interaction-design,
+    .bar-interaction-design::after{
+            height: 1.5rem;
+    }
+    .porcentage-id{
+        font-size: 16px;
+    }
+    /**/
+    
+    .bar-ux,
+    .bar-ux::after{
+        height: 1.5rem;
+    }
+    
+    .porcentage-ux{
+        font-size: 16px;
+    }
+    
+    /**/
+    
+    .bar-Frameworks,
+    .bar-Frameworks::after{
+        height: 1.5rem;
+       
+    }
+    
+    .porcentage-frame{
+        font-size: 16px;
+    }
+    .experience{
+        margin-top: 3rem;
+    }
+
+      .experience > h2{
+          font-size: 36px;
+          margin-bottom: 2rem;
+      }
+        
+        #content {
+          grid-gap: 5.5rem;
+      
+        }
+ 
+      
+      .mi-portafolio > h2 {
+              font-size: 36px;
+      }
+      .mp1{
+          font-size: 22px;
+      }
+      .mp2{
+        font-size: 22px;
+      }
+
+      .contacto > h2 {
+                  font-size: 36px;
+          }
+                  .circle{
+                  
+                      width: 150px;
+                      height: 150px;
+                         
+                   }
+
+                   .circle > img{
+                       width: 50%;
+                   }
+      
+                  .title-contact{
+                      font-size: 18px;
+                  }
+                  .sub-contact{
+                      font-size: 16px;
+                  }
+
+      
+               .footer1{
+      
+                  font-size: 50px;
+      
+               }
+               .footer2{
+                   font-size: 24px;
+               }
+}
+/* media para Desktop */
+@media screen and (min-width: 1000px) and (max-width:1024px) {
+    :root {
+
+        --bg-color-: #FFFFFF;
+        --bg-box-color: #F9F5F2;
+        --color-green: #197F5B;
+        --color-orange: #EF9919;
+        --color-gray: #413f40;
+    }
+
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 52px;
+        color: var(--bg-color-);
+    }
+
+    .cabecera {
+        background: url(/assets/Vectores/fondoweb.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+    }
+
+    label {
+        display: none;
+    }
+
+    input#menu-responsive~ul {
+        position: static;
+        background-color: transparent;
+        height: auto;
+        display: flex;
+        justify-content: flex-end;
+        transition: none;
+        gap: 1.5rem;
+        color: var(--bg-color-);
+
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        height: 50px;
+        background-color: var(--color-green);
+        padding: 3%;
+    }
+
+    nav>ul>li {
+        display: inline-block;
+
+    }
+
+    nav>ul>li>a {
+
+        text-decoration: none;
+        color: var(--bg-color-);
+        font-weight: 400;
+
+    }
+
+    .container {
+
+        width: 100%;
+        display: grid;
+        grid-template-columns: 45% 10% 45%;
+        grid-template-rows: auto;
+        justify-content: space-between;
+        margin-top: 4%
+    }
+
+    .c1 span {
+        color: var(--color-orange);
+        font-weight: 600;
+
+    }
+
+    .c1 h1 {
+        font-weight: 400;
+    }
+
+    .c2 span {
+        color: var(--bg-color-);
+        font-weight: 400;
+        font-size: 26px;
+    }
+
+    .c4 {
+
+        grid-column: 1;
+
+    }
+
+    .c4>.bubble1 {
+
+        width: 33%;
+        margin-top: 2%;
+        padding: 1%;
+        margin-left: 51%;
+        -webkit-box-reflect: below -62px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgb(255, 255, 255)));
+    }
+
+    .c4>.bubble1>span {
+        color: var(--color-orange);
+        font-weight: 600;
+        font-size: 17px;
+    }
+
+    .c4>.bubble1>p {
+        font-size: 17px;
+    }
+
+    .c11>.bubble2 {
+        width: 32%;
+        font-size: 17px;
+        margin-right: 51%;
+        padding: 1%;
+        margin-top: 5%;
+        -webkit-box-reflect: below -62px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(255, 255, 255, 0.5)));
+
+
+    }
+
+    .c11>.bubble2>span {
+        color: var(--color-orange);
+        font-weight: 600;
+    }
+
+    .c14>.in {
+        width: 3.75rem;
+        height: 3.75rem;
+        margin-right: 16%;
+        margin-top: 20%;
+    }
+
+    .in>img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .c16>.twitter {
+        width: 3.75rem;
+        height: 3.75rem;
+        margin-top: 20%;
+        margin-left: 18%;
+
+    }
+
+    .twitter>img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .c17 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .c17>.insta {
+        width: 3.75rem;
+        height: 3.75rem;
+        margin-top: -1%;
+
+    }
+
+    .insta>img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .email-div {
+
+        width: 70%;
+
+
+
+    }
+
+    .email-div>span {
+        font-size: 22px;
+        margin-bottom: 3%;
+    }
+
+    input.email-box {
+        font-size: 20px;
+    }
+
+    .email-div>button {
+
+        margin-top: 6.7%;
+        width: 20%;
+        height: 2.4rem;
+        margin-left: 45%;
+        font-size: 20px;
+
+    }
+    .about-box {
+        width: 80%;
+        margin-top: 1%;
+        margin-bottom: 3%;
+        font-size: 18px;
+    }
+    
+    main>.title-aboutme {
+        margin-left: 10%;
+        font-size: 28px;
+    }
+    
+    button.cv {
+        width: 25%;
+        margin-bottom: 1%;
+        font-size: 18px;
+    }
+    
+    .text-download {
+        margin: 0 25px;
+    }
+    
+    .title-studies {
+        font-size: 32px;
+        margin-top: 5%;
+    
+    }
+    
+    .studies-grid {
+        grid-column-gap: 1.5%;
+        grid-row-gap: 3%;
+        margin-top: 1%;
+        grid-template-columns: 30% 30%;
+    }
+
+    .box-studies > div > img{
+        width: 96px;
+        height: 96px;
+    }
+    
+    .titulo-studies {
+    
+        font-size: 20px;
+        line-height: 1.2;
+    }
+    
+    .anio-studies {
+        margin-top: 5%;
+        font-size: 14px;
+    }
+    
+    .learning-studies {
+        font-size: 16px;
+    }
+    
+    .title-skills{
+    
+        font-size: 32px;
+        margin-top: 7%;
+        margin-bottom: 2%;
+    
+    }
+    
+    .titles-skills{
+    
+        margin-bottom: -2%;
+        margin-left: 20%;
+    
+    }
+    .bar-web-design,
+    .bar-web-design::after{
+        width: 60%;
+    }
+    .bar-web-design::after{
+        width: 80%;
+    }
+    
+    .porcentage-wd{
+    margin-left: 66%;
+ 
+    }
+    
+    /**/
+    
+    .bar-interaction-design,
+    .bar-interaction-design::after{
+    
+        width: 60%;
+       
+    }
+    
+    .bar-interaction-design::after{
+    
+        width: 95%;
+      
+    }
+    
+    .porcentage-id{
+        margin-left: 75%;
+    }
+    /**/
+    
+    .bar-ux,
+    .bar-ux::after{
+            width: 60%;
+    }
+    
+    .bar-ux::after{
+        width: 80%;
+    }
+    
+    .porcentage-ux{
+        margin-left: 66%;
+    }
+    
+    /**/
+    
+    .bar-Frameworks,
+    .bar-Frameworks::after{
+    
+        width: 60%;
+    }
+    
+    .bar-Frameworks::after{
+        width: 80%;
+    }
+    .porcentage-frame{
+        margin-left: 66%;
+    }
+    .experience{
+
+       margin-top: 2rem;
+        
+      }
+      .experience > h2{
+          color: var(--color-gray);
+          font-size:32px;
+          margin-bottom: 2rem;
+      }
+         
+        #prev,
+        #next {
+       
+          visibility:hidden ;
+        }
+        
+        
+        #content {
+          display: flex;
+          justify-content: space-around;
+          justify-content: center;
+          box-sizing: border-box;
+          margin-bottom: 2rem;
+      
+      
+        }
+      
+        .item {
+          width: 80px;
+         
+        }
+      
+      .title-job{
+          font-size: 18px;
+          
+      }
+      
+      .sub-job{
+          font-size: 16px;
+      
+      }
+  
+      .mp1{
+          text-align: right;
+          margin-right: 10%;
+       
+      }
+      .mp2{
+          text-align: left;
+          margin-left: 2%;
+      }
+   
+      .contacto > h2 {
+                  font-size: 32px;
+                 
+          }
+          .contact1{
+              justify-content: flex-end;
+              margin-right: 15%;
+              }
+      
+              .contact2{
+                  justify-content: flex-start;
+                  margin-left: 15%;
+                  }
+                  .circle{
+               
+                      width: 150px;
+                      height: 150px;
+                           
+                   }
+                   .circle > img {
+                       width: 50%;
+                                      }
+      
+                  .title-contact{
+                      font-size: 18px;
+                      font-weight: 600;
+                      
+                  }
+                  .sub-contact{
+                      font-size: 16px;
+                  }
+                  .celu{
+                      margin-left: 35%;
+                  }
+                  .emailito{
+                    margin-right: 35%;
+                  }
+      
+               footer{
+              
+                   padding: 3%;
+                  
+               }
+      
+               .footer1{
+      
+                  font-size: 46px;
+      
+               }
+}
+/* media para Desktop */
+@media screen and (min-width: 1200px) {
+    :root {
+
+        --bg-color-: #FFFFFF;
+        --bg-box-color: #F9F5F2;
+        --color-green: #197F5B;
+        --color-orange: #EF9919;
+        --color-gray: #413f40;
+    }
+
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 72px;
+        color: var(--bg-color-);
+    }
+
+    .cabecera {
+        background: url(/assets/Vectores/fondoweb.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+    }
+
+    label {
+        display: none;
+    }
+
+    input#menu-responsive~ul {
+        position: static;
+        background-color: transparent;
+        height: auto;
+        display: flex;
+        justify-content: flex-end;
+        transition: none;
+        gap: 1.5rem;
+        color: var(--bg-color-);
+
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        height: 50px;
+        background-color: var(--color-green);
+        padding: 3%;
+    }
+
+    nav>ul>li {
+        display: inline-block;
+
+    }
+
+    nav>ul>li>a {
+
+        text-decoration: none;
+        color: var(--bg-color-);
+        font-weight: 400;
+
+    }
+
+    .container {
+
+        display: grid;
+        grid-template-columns: 45% 10% 45%;
+        grid-template-rows: auto;
+        justify-content: space-between;
+        margin-top: 4%
+    }
+
+    .c1 span {
+        color: var(--color-orange);
+        font-weight: 600;
+
+    }
+
+    .c1 h1 {
+        font-weight: 400;
+    }
+
+    .c2 span {
+        color: var(--bg-color-);
+        font-weight: 400;
+        font-size: 38px;
+    }
+
+    .c4>.bubble1 {
+
+        width: 29%;
+        margin-top: 4%;
+        padding: 1%;
+        font-size: 20px;
+        margin-left: 55%;
+        -webkit-box-reflect: below -68px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgb(255, 255, 255)));
+    }
+
+    .c11>.bubble2 {
+        width: 29%;
+        margin-top: 10%;
+        font-size: 20px;
+        margin-right: 53%;
+        padding: 1%;
+        -webkit-box-reflect: below -62px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(255, 255, 255, 0.5)));
+
+
+    }
+
+    .c14>.in {
+        width: 4rem;
+        height: 4rem;
+        margin-right: 18.5%;
+        margin-top: 25%;
+    }
+
+    .in>img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .c16>.twitter {
+        width: 4rem;
+        height: 4rem;
+        margin-top: 25%;
+        margin-left: 20%;
+
+    }
+
+    .twitter>img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .c17 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .c17>.insta {
+        width: 4rem;
+        height: 4rem;
+        margin-top: 1%;
+
+
+    }
+
+    .insta>img {
+        width: 2.5rem;
+        height: 2.5rem;
+
+    }
+
+    .email-div {
+        width: 65%;
+        padding-top: 2%;
+        margin-bottom: 5%;
+
+    }
+
+    .email-div>span {
+        font-size: 25px;
+
+    }
+
+    input.email-box {
+
+        height: 4rem;
+        margin-top: 2rem;
+        font-size: 26px;
+
+
+    }
+
+    .email-div>button {
+
+        width: 15%;
+        height: 3.2rem;
+        margin-top: 6.2%;
+        margin-left: 45%;
+        font-size: 30px;
+
+    }
+    .about-box {
+        width: 75%;   
+        margin-top: 1%;
+        margin-bottom: 2%;
+        font-size: 20px;
+    }
+    
+    main>.title-aboutme {
+        margin-left: 12.5%;
+        font-size: 32px;
+    }
+    
+    button.cv {
+    
+        width: 20%;
+        height: 3rem;
+        margin-bottom: 1%;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    
+    .text-download {
+        margin: 0 13px;
+    }
+    
+    .title-studies {
+        color: var(--color-gray);
+        font-size: 32px;
+        margin-top: 5%;
+    
+    }
+    
+    .studies-grid {
+
+        grid-column-gap: 1.5%;
+        grid-row-gap: 3%;
+        margin-top: 1%;
+        grid-template-columns: 30% 30%;
+    }
+    
+    .learning-studies {
+        font-size: 16px;
+    }
+    .box-studies > div > img{
+        width: 96px;
+        height: 96px;
+        margin-bottom: 1%;
+    }
+    
+    .title-skills{
+    
+        font-size: 32px;
+        margin-top: 7%;
+        margin-bottom: 2%;
+    
+    }
+    
+    .titles-skills{
+    
+        margin-bottom: -2%;
+        margin-left: 20%;
+    
+    }
+    .bar-web-design,
+    .bar-web-design::after{
+        width: 60%;
+    }
+    .bar-web-design::after{
+        width: 80%;
+    }
+    
+    .porcentage-wd{
+    margin-left: 66%;
+ 
+    }
+    
+    /**/
+    
+    .bar-interaction-design,
+    .bar-interaction-design::after{
+    
+        width: 60%;
+       
+    }
+    
+    .bar-interaction-design::after{
+    
+        width: 95%;
+      
+    }
+    
+    .porcentage-id{
+        margin-left: 75%;
+    }
+    /**/
+    
+    .bar-ux,
+    .bar-ux::after{
+            width: 60%;
+    }
+    
+    .bar-ux::after{
+        width: 80%;
+    }
+    
+    .porcentage-ux{
+        margin-left: 66%;
+    }
+    
+    /**/
+    
+    .bar-Frameworks,
+    .bar-Frameworks::after{
+    
+        width: 60%;
+    }
+    
+    .bar-Frameworks::after{
+        width: 80%;
+    }
+    .porcentage-frame{
+        margin-left: 66%;
+    }
+    .experience{
+
+        margin-top: 2rem;
+         
+       }
+       .experience > h2{
+           color: var(--color-gray);
+           font-size:32px;
+           margin-bottom: 2rem;
+       }
+          
+         #prev,
+         #next {
+        
+           visibility:hidden ;
+         }
+         #wrapper {
+            width: 100%;
+            max-width: 1400px;
+            position: relative;
+         }
+         
+         #content {
+           display: flex;
+           justify-content: space-around;
+           box-sizing: border-box;
+           margin-bottom: 2rem;
+           width: 90%;
+       
+       
+         }
+       
+         .item {
+           width: 80px;
+          
+         }
+       
+       .title-job{
+           font-size: 18px;
+           
+       }
+       
+       .sub-job{
+           font-size: 16px;
+       
+       }
+   
+       .mp1{
+           text-align: right;
+           margin-right: 10%;
+        
+       }
+       .mp2{
+           text-align: left;
+           margin-left: 2%;
+       }
+    
+       .contacto > h2 {
+                   font-size: 32px;
+                  
+           }
+           .contact1{
+               justify-content: flex-end;
+               margin-right: 15%;
+               }
+       
+               .contact2{
+                   justify-content: flex-start;
+                   margin-left: 15%;
+                   }
+                   .circle{
+                
+                       width: 150px;
+                       height: 150px;
+                            
+                    }
+                    .circle > img {
+                        width: 50%;
+                                       }
+       
+                   .title-contact{
+                       font-size: 18px;
+                       font-weight: 600;
+                       
+                   }
+                   .sub-contact{
+                       font-size: 16px;
+                   }
+                   .celu{
+                       margin-left: 40%;
+                   }
+                   .emailito{
+                     margin-right: 45%;
+                   }
+       
+                footer{
+               
+                    padding: 3%;
+                   
+                }
+       
+                .footer1{
+       
+                   font-size: 46px;
+       
+                }
+    
+
+}
+/* media para Desktop */
+@media screen and (min-width: 1281px) {
+
+    .cabecera {
+        background: url(/assets/Vectores/fondoweb.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+    }
+    .c14>.in {
+
+        margin-right: 18%;
+        margin-top: 16%;
+    }
+
+    .in>img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .c16>.twitter {
+
+        margin-top: 16%;
+        margin-left: 20%;
+
+    }
+
+    .twitter>img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .email-div>button {
+
+        height: 3.5rem;
+        margin-top: 5.7%;
+        margin-left: 45.4%;
+        font-size: 30px;
+
+    }
+
+    input.email-box {
+
+
+        font-size: 22px;
+
+
+    }
+    .celu{
+        margin-left: 45%;
+    }
+    label{
+        visibility: hidden;
+    }
+
+
+}
